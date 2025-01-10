@@ -1,0 +1,169 @@
+.tab{
+    background-color: #CFA3FF;
+    text-align: center;
+    color: #002751;
+    padding: 5px;
+}
+
+.content{
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    height: auto;
+}
+
+.row{
+    display: flex;
+}
+
+.col-sm-3{
+    height: calc(90vh);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #E5E5E5;
+    color: #8D8D8D;
+}
+
+.col-sm-9{
+    height: calc(90vh);
+    border-radius: 10px;
+    padding: 0 0px;
+    padding-left: 60px;
+    color: #002751;
+}
+
+.cover{
+    background-image: url("/assets/payflex.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20%;
+    border-radius: 10px;
+}
+
+.profile-picture{
+    width: 15%;
+    position: relative;
+    margin-top: -56px;
+    margin-left: 2rem;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+}
+
+.profile-picture img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.name{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #002751;
+}
+
+.btn{
+    background-color: #002751;
+    border-color: #002751;
+    width:150px;
+}
+
+.btn-secondary{
+    color: #002751;
+    background-color: #fff;
+}
+
+.row2{
+    margin-top: 40px;
+    
+}
+
+.col-sm p{
+    margin-bottom: 10px;
+}
+
+.hob{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.hobbies{
+    display: flex;
+    gap: 10px;
+}
+
+.hobby{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #CFA3FF;
+    color: #fff;
+}
+
+.modal-body{
+    text-align: center;
+}
+
+
+.label{
+    margin-left: 2px;
+    color: #002751;
+}
+
+h1{
+    color: #002751;
+}
+
+.input{
+    width: 79%;
+    margin-top: 5px;
+    margin-left: 2px;
+    margin-bottom: 22px;
+    border: none;
+    background-color: #E5E5E5;
+    height: 35px;
+    color: #002751; 
+    border-radius: 2px;
+    padding: 5px;
+    text-align: center;
+}
+
+.input:focus {
+    outline-color: #CFA3FF;
+}
+
+.error{
+    margin-top: -22px;
+}
+
+
+@media(max-width: 992px){
+    .row{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .col-sm-3{
+        display: none;
+    }
+
+    .col-sm-9{
+       padding: 0;
+    }
+
+    .profile-picture{
+        width: 30%;
+        position: relative;
+        margin-top: -40px;
+        margin-left: 2rem;
+    }
+
+    .row2{
+        margin-top: 20px;
+        flex-direction: column
+    }
+
+}

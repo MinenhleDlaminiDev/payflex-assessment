@@ -1,0 +1,56 @@
+headers = []
+
+[functions]
+
+[functions."*"]
+
+[[plugins]]
+origin = "default"
+package = "@netlify/angular-runtime"
+
+[plugins.inputs]
+
+[build]
+publish = "C:\\Users\\User\\Desktop\\Stuff\\Coding\\payflex-test\\dist\\payflex-test\\browser"
+publishOrigin = "ui"
+commandOrigin = "ui"
+base = "C:\\Users\\User\\Desktop\\Stuff\\Coding\\payflex-test"
+command = "npm run build"
+
+[build.environment]
+
+[build.processing]
+
+[build.processing.css]
+
+[build.processing.html]
+
+[build.processing.images]
+
+[build.processing.js]
+
+[build.services]
+
+[[redirects]]
+from = "/api/*"
+to = "http://qc4o0kw4s8skwcswgwwgs0c4.13.244.214.218.sslip.io/:splat"
+status = 200.0
+force = false
+
+[redirects.query]
+
+[redirects.conditions]
+
+[redirects.headers]
+
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200.0
+force = false
+
+[redirects.query]
+
+[redirects.conditions]
+
+[redirects.headers]

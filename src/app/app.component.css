@@ -1,0 +1,30 @@
+
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: #002751;
+    height: 80px;
+}
+
+.nav-left img{
+    width: 100px;
+}
+
+.nav-right ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.nav-right li{
+    cursor: pointer;
+}
+
+
+footer{
+    height: 20px;
+    background-color: #CFA3FF;
+    margin-top: auto;
+}
